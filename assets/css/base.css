@@ -1,0 +1,13 @@
+:root {
+    --white-color: #fff;
+    --primary-color: #404040;
+    --text-color: #777;
+}
+
+* {
+    box-sizing: inherit;
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}

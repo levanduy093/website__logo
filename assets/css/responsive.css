@@ -1,0 +1,50 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    .about-section {
+        margin: 0;
+    }
+
+    .info__picture-img {
+        width: 100%;
+        height: auto;
+        opacity: 0.6;
+    }
+
+    .mobile-tablet-space-list-item {
+        padding-top: 10px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .header__content-text {
+        display: flex;
+        padding-top: 8px;
+    }
+    .content__footer-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content__footer-text {
+        width: 100%;
+    }
+    .contact-address-form,
+    .contact-address-info {
+        padding-left: 0;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+}
